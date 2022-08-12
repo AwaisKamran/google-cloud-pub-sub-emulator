@@ -1,0 +1,17 @@
+{
+  "name": "pub-sub-emulator",
+  "version": "1.0.0",
+  "description": "Library to emulate GCP pub/sub",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
